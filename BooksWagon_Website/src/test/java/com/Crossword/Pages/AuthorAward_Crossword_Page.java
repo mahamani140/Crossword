@@ -65,6 +65,13 @@ public class AuthorAward_Crossword_Page
 			driver.close();
 		}
 	}
+	
+	public void screenshot(String path) throws IOException, InterruptedException
+	{
+	   TakesScreenshot ts=(TakesScreenshot)driver;
+	   File src=ts.getScreenshotAs(OutputType.FILE);
+	   FileUtils.copyFile(src,new File(path));					
+    }
 	//To close the award page
 	public void close_award() throws InterruptedException
 	{
