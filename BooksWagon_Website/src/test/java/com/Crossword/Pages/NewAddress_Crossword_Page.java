@@ -27,7 +27,7 @@ public class NewAddress_Crossword_Page
 	By addressMobile =By.id("address_mobile");
 	By addressLandline = By.id("address_landline");
 	By create = By.id("address_submit");
-
+	//To Launch Browser
 	public void LaunchBrowser() throws IOException 
 	{ 
 		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\Driver\\chromedriver.exe");
@@ -66,7 +66,7 @@ public class NewAddress_Crossword_Page
 		driver.findElement(addressLandline).sendKeys("04135444");
 		driver.findElement(create).click();
 	}
-	
+	//To Close
 	public void close_address() throws InterruptedException
 	{
 		driver.findElement(By.linkText("Logout")).click();
