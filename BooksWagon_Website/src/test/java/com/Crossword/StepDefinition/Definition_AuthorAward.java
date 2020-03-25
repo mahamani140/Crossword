@@ -22,6 +22,7 @@ public class Definition_AuthorAward
 		public void the_user_view_the_award_details() throws InterruptedException 
 		{
 			MyAward.award_book();
+			s.screenshot("src\\test\\resources\\screenshot\\author.png");
 		}
 
 		@Then("^Close browser$")
