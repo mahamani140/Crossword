@@ -20,7 +20,8 @@ public class Slider_Crossword_Page
 	By price = By.xpath("//*[@id=\"facet-price\"]/h6");
 	By slider = By.xpath("//*[@id=\"range_as_slider\"]/div[1]/a[1]");
 	
-
+	
+	//To Launch Browser
 	public void LaunchBrowser() throws IOException 
 	{ 
 		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\Driver\\chromedriver.exe");
