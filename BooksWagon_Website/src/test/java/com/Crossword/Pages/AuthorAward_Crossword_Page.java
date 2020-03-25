@@ -69,6 +69,6 @@ public class AuthorAward_Crossword_Page
 	public void close_award() throws InterruptedException
 	{
 		Thread.sleep(2000);
-//		driver.close();
+//		driver.close();	//to close the browser
 	}
 }
