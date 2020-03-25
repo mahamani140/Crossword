@@ -18,7 +18,7 @@ public class Scrolling_Crossword_Page
 	//Scrolling the payment option page
 	By payment = By.linkText("Payment Option");
 	By takeMe = By.className("go-to-top");
-
+	//To Launch Browser
 	public void LaunchBrowser() throws IOException 
 	{ 
 		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\Driver\\chromedriver.exe");
