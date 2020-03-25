@@ -65,11 +65,11 @@ public class AuthorAward_Crossword_Page
 			driver.close();
 		}
 	}
-	
+	//To take screenshot
 	public void screenshot(String path) throws IOException, InterruptedException
 	{
-	   TakesScreenshot ts=(TakesScreenshot)driver;
-	   File src=ts.getScreenshotAs(OutputType.FILE);
+	   TakesScreenshot ts=(TakesScreenshot)driver;	//Create an object to take screenshot
+	   File src=ts.getScreenshotAs(OutputType.FILE);	//File to create to store screenshot
 	   FileUtils.copyFile(src,new File(path));					
     }
 	//To close the award page
