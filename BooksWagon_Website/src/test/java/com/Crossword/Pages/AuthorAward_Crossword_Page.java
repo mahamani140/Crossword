@@ -20,6 +20,7 @@ public class AuthorAward_Crossword_Page
 	By arrowClick = By.xpath("/html/body/div[2]/section/div[2]/div[2]/div[2]/div/button[2]");
 	By author = By.xpath("//*[@id=\"MultiCarousel2\"]/div/div[6]/div/p[1]");
 
+	//To Launch Browser
 	public void LaunchBrowser() throws IOException 
 	{ 
 		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\Driver\\chromedriver.exe");
